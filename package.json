@@ -8,7 +8,7 @@
     "npm": "6.9.0"
   },
   "scripts": {
-    "start":"node server/appController" 
+    "start":"node server/app.js" 
   },
   "author": "",
   "license": "ISC",
