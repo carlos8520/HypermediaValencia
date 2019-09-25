@@ -1,2 +1,0 @@
-# HypermediaValencia
-Hypermedia stuff
