@@ -15,5 +15,9 @@ module.exports = (app) => {
         res.send(req.user);
     })
 
-    app.get('/auth/google/callback', passport.authenticate('google'));
+    app.get('/auth/google/callback', passport.authenticate('google'),
+        (req, res) =>  {
+            res.redirect('/surveys');
+        }
+    );
 };
